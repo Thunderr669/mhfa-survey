@@ -187,7 +187,9 @@ h1 {
 }
 
 /* Responsive */
+/* Responsive */
 @media (max-width: 600px) {
+
   .logo-title {
     flex-direction: column;
     align-items: flex-start;
@@ -201,68 +203,49 @@ h1 {
     width: 80px;
     height: 80px;
   }
-  /* ---------------------------
-   Mobile Optimization
----------------------------- */
-@media (max-width: 600px) {
 
-    body {
-        padding: 0 12px;
-    }
+  /* Additional Mobile Optimization */
+  body {
+    padding: 0 12px;
+  }
 
-    header h1 {
-        font-size: 1.4rem;
-        line-height: 1.3;
-    }
+  h1 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
 
-    header .subtitle {
-        font-size: 0.9rem;
-        margin-top: -6px;
-    }
+  .subtitle {
+    font-size: 0.9rem;
+    margin-top: -4px;
+  }
 
-    .container {
-        padding: 16px;
-        margin: 12px 0;
-        border-radius: 14px;
-    }
+  .container {
+    padding: 12px;
+    margin: 12px 0;
+  }
 
-    .card {
-        padding: 14px;
-        border-radius: 12px;
-    }
+  .card {
+    padding: 14px;
+    border-radius: 12px;
+  }
 
-    .mentor-section img {
-        width: 70px;
-        height: 70px;
-    }
+  label {
+    font-size: 0.95rem;
+    padding: 6px 0;
+  }
 
-    .mentor-details h3 {
-        font-size: 1rem;
-    }
+  .question p {
+    font-size: 0.95rem;
+  }
 
-    .mentor-details p {
-        font-size: 0.85rem;
-        line-height: 1.3;
-    }
+  .question strong {
+    font-size: 1rem;
+  }
 
-    label {
-        font-size: 0.95rem;
-        padding: 6px 0;
-    }
-
-    .question p {
-        font-size: 0.95rem;
-    }
-
-    .question strong {
-        font-size: 1rem;
-    }
-
-    footer {
-        padding: 10px 5px;
-        font-size: 0.8rem;
-    }
+  footer, .site-footer {
+    padding: 10px 5px;
+    font-size: 0.8rem;
+  }
 }
 
-}
 
