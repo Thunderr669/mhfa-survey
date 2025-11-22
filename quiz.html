@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MHFA Awareness Survey – Questionnaire</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-title">
+      <img src="amrita-logo.png" alt="Amrita Vishwa Vidyapeetham" class="logo">
+      <div>
+        <h1>MHFA Awareness Survey</h1>
+        <p class="subtitle">How Would You Respond?</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <form id="mhfaForm" class="card">
+      <h2>Survey Questions</h2>
+
+      <!-- Each question now has ONLY TEXT + an empty options div -->
+      <div class="question" data-q="q1">
+        <p><strong>1. Anxiety Attack</strong><br>Your friend suddenly starts breathing fast, trembling, and says they feel something bad is happening. What would you do first?</p>
+        <div class="options"></div>
+      </div>
+
+      <div class="question" data-q="q2">
+        <p><strong>2. Withdrawal</strong><br>A friend who is usually energetic suddenly avoids everyone for the last 3–5 days. How would you respond?</p>
+        <div class="options"></div>
+      </div>
+
+      <div class="question" data-q="q3">
+        <p><strong>3. “Nothing matters anymore”</strong><br>A classmate casually says: “I don’t think anything matters these days.” What is the safest response?</p>
+        <div class="options"></div>
+      </div>
+
+      <div class="question" data-q="q4">
+        <p><strong>4. Sudden Anganger / Irritability</strong><br>Someone snaps at you repeatedly for small things. What would you do?</p>
+        <div class="options"></div>
+      </div>
+
+      <div class="question" data-q="q5">
+        <p><strong>5. Suddenly Very Happy</strong><br>A person who was sad for weeks suddenly becomes overly excited and energetic. How would you see this?</p>
+        <div class="options"></div>
+      </div>
+
+      <div class="question" data-q="q6">
+        <p><strong>6. Exam Stress Panic</strong><br>Your friend freezes before an exam and says their mind is blank. What would you do?</p>
+        <div class="options"></div>
+      </div>
+
+      <div class="question" data-q="q7">
+        <p><strong>7. Isolation in Hostel</strong><br>A hostel mate has been skipping meals and staying locked in their room. How would you handle it?</p>
+        <div class="options"></div>
+      </div>
+
+      <div class="question" data-q="q8">
+        <p><strong>8. Friend Breaking Down</strong><br>A friend bursts into tears suddenly and says they “can’t handle things.” What would you do?</p>
+        <div class="options"></div>
+      </div>
+
+      <div class="question" data-q="q9">
+        <p><strong>9. Self-harm Concern</strong><br>You see risky marks on someone’s hand and they avoid the topic. What’s the safest first step?</p>
+        <div class="options"></div>
+      </div>
+
+      <div class="question" data-q="q10">
+        <p><strong>10. Confidence Level</strong><br>How confident do you feel helping someone in emotional distress?</p>
+        <div class="options"></div>
+      </div>
+
+      <button type="submit" class="primary-btn">Submit Responses</button>
+    </form>
+
+    <section id="resultCard" class="card result-card hidden">
+      <h2>Your MHFA Awareness Level</h2>
+      <p id="levelText" class="level-text"></p>
+      <p id="scoreText" class="score-text"></p>
+      <p id="recommendationText" class="recommendation-text"></p>
+      <p class="small-note">
+        Thank you for participating in this educational project on Mental Health First Aid.
+      </p>
+      <a href="index.html" class="secondary-btn">Back to Home</a>
+    </section>
+  </main>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
